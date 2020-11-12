@@ -51,6 +51,8 @@ const addIterations = (astRoot) => {
   addDeclaration(astRoot);
   removeDeclaration(astRoot);
   getParam(astRoot);
+	
+	return astRoot;
 
 };
 
